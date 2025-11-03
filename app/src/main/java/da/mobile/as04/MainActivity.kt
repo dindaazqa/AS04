@@ -40,7 +40,7 @@ fun FormScreen(viewModel: AppViewModel = viewModel()) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text("Form Input Data", style = MaterialTheme.typography.headlineSmall)
+        Text("Form Registrasi", style = MaterialTheme.typography.headlineSmall)
         Spacer(modifier = Modifier.height(20.dp))
 
         OutlinedTextField(
